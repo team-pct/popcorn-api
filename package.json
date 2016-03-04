@@ -1,0 +1,27 @@
+{
+  "name": "tvseries-api",
+  "version": "1.0.0",
+  "description": "An Objectivly better TV series API for Popcorn Time.",
+  "dependencies": {
+    "async-q": "^0.3.1",
+    "body-parser": "^1.15.0",
+    "cheerio": "^0.20.0",
+    "compression": "^1.6.1",
+    "cron": "^1.1.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.4",
+    "morgan": "^1.7.0",
+    "q": "^1.4.1",
+    "request": "^2.69.0",
+    "response-time": "^2.3.1"
+  },
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "node --harmony --harmony_destructuring --use_strict index.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
